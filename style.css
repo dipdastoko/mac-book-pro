@@ -12,3 +12,16 @@
 .hello{
     width: 35%;
 }
+.black{
+    border: 1px solid black;
+}
+.apply-btn{
+    background-color: red; color: white; border-radius: 5px;
+}
+.apply-btn:hover{
+    background-color: green;
+}
+img{
+    height: 75%;
+    margin: 100px 0 0 100px;
+}
