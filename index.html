@@ -23,44 +23,49 @@
                     Magic Keyboard-US English</p>
                 <br>
                 <h2>Memory</h2>
-                <button class="btn">8GB unified memory</button>
-                <button class="btn">16GB unified memory</button>
+                <button id="memory-8gb" class="btn">8GB unified memory</button>
+                <button id="memory-16gb" class="btn">16GB unified memory</button>
 
                 <br>
                 <h2>Storage</h2>
-                <button class="btn">256GB SSD storage</button>
-                <button class="btn">512GB SSD storage</button>
-                <button class="btn">1TB SSD storage</button>
+                <button id="storage-256gb" class="btn">256GB SSD storage</button>
+                <button id="storage-512gb" class="btn">512GB SSD storage</button>
+                <button id="storage-1tb" class="btn">1TB SSD storage</button>
 
                 <br>
                 <h2>Choose your delivery option</h2>
-                <button class="btn">Friday, Aug 25 FREE Prime Delivery</button>
-                <button class="btn">Friday, Aug 21 Delivery charge $20</button>
+                <button id="free-delivery" class="btn">Friday, Aug 25 FREE Prime Delivery</button>
+                <button id="charged-delivery" class="btn">Friday, Aug 21 Delivery charge $20</button>
                 <br>
                 <br>
                 <div class="hello">
                     <h2 class="space-between"><span>Best Price</span> <span>$1299</span></h2>
                     <hr>
-                    <h2 class="space-between"><span>Extra Memory Cost</span> <span>$0</span></h2>
+                    <h2 class="space-between"><span>Extra Memory Cost</span> <span>$<span
+                                id="extra-memory">0</span></span></h2>
                     <hr>
-                    <h2 class="space-between"><span>Extra Storage Cost</span> <span>$0</span></h2>
+                    <h2 class="space-between"><span>Extra Storage Cost</span> <span>$<span
+                                id="extra-storage">0</span></span></h2>
                     <hr>
-                    <h2 class="space-between"><span>Delivery Charge</span> <span>$0</span></h2>
+                    <h2 class="space-between"><span>Delivery Charge</span> <span>$<span
+                                id="delivery-charge">0</span></span></h2>
                     <hr class="black">
-                    <h2 class="space-between"><span>Total Price</span> <span>$0</span></h2>
+                    <h2 class="space-between"><span>Total Price</span> <span>$<span id="total-price">1299</span></span>
+                    </h2>
                     <hr>
                 </div>
                 <br>
                 <h2>Add Promo Code</h2>
-                <input type="text"><button class="
+                <input id="input-promo" type="text"><button id="apply-btn" class="
                 apply-btn">Apply</button>
             </div>
         </section>
     </main>
     <footer>
         <hr>
-        <h1 style="text-align: center;">Totsl: $<span>1299</span></h1>
+        <h1 style="text-align: center;">Total: $<span id="promo-total">1299</span></h1>
     </footer>
+    <script src="app.js"></script>
 </body>
 
 </html>
