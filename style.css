@@ -5,3 +5,10 @@
     background-color: black;
     color: white;
 }
+.space-between{
+    display: flex;
+    justify-content: space-between;
+}
+.hello{
+    width: 35%;
+}
